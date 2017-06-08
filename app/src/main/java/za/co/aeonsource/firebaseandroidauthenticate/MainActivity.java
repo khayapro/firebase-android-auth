@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     @Override
     public void onClick(View v) {
+        //handles the click event
         switch (v.getId()){
             case R.id.sign_in_button:
                 signIn();
